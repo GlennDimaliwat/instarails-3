@@ -1,0 +1,30 @@
+.profile-count {
+  font-size: 80%;
+}
+.profile-count::first-line {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+div.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // max-width: calc((350px*3)+(20px*2));
+  // background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    flex: 1;    
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px;
+  }
+}
+
+nav.secondary-nav {
+  text-align: center;
+}
